@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { addFeature } from '../actions/reducerActions';
+import {addFeature} from '../actions/reducerActions';
 
 const AdditionalFeature = props => {
   return (
@@ -12,4 +12,4 @@ const AdditionalFeature = props => {
   );
 };
 
-export default connect(null, { addFeature })(AdditionalFeature);
+export default connect(null, { addFeature }) (AdditionalFeature);
